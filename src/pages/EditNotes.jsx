@@ -81,9 +81,9 @@ const EditNotePage = ({updateNote}) => {
           onChange={(e) => setCategory(e.target.value)}
         >
           <option value="">Pick a category</option>
-          <option value="BUSINESS">Business</option>
-          <option value="PERSONAL">Personal</option>
-          <option value="IMPORTANT">Important</option>
+          <option value="HIGH">High</option>
+          <option value="MEDIUM">Medium</option>
+          <option value="LOW">Low</option>
         </select>
       </div>
 

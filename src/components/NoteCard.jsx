@@ -8,7 +8,7 @@ import { FormatDate } from './FormatDate';
 const NoteCard = ({note}) => {
 
   const body = `${note.body.split(" ").slice(0, 20).join(" ")} ...`
-  const color = note.category == "BUSINESS" ? "blue" : note.category == "PERSONAL" ? "green" : "purple"
+  const color = note.category == "HIGH" ? "blue" : note.category == "MEDIUM" ? "green" : "LOW"
 
   return (
     <div className="col-md-4 single-note-item all-category">

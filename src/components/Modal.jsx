@@ -29,3 +29,4 @@ const Modal = ({handleIsOpen, deleteNote}) => {
   )
 
 }
+export default Modal;

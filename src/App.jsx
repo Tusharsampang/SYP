@@ -29,12 +29,12 @@ const App = () => {
   };
 
   const filteredNotes =
-    filterText === "BUSINESS"
-      ? notes.filter((note) => note.category == "BUSINESS")
-      : filterText === "PERSONAL"
-      ? notes.filter((note) => note.category == "PERSONAL")
-      : filterText === "IMPORTANT"
-      ? notes.filter((note) => note.category == "IMPORTANT")
+    filterText === "HIGH"
+      ? notes.filter((note) => note.category == "HIGH")
+      : filterText === "MEDIUM"
+      ? notes.filter((note) => note.category == "MEDIUM")
+      : filterText === "LOW"
+      ? notes.filter((note) => note.category == "LOW")
       : notes;
 
 
